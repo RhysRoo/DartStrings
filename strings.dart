@@ -26,9 +26,9 @@ void main() {
   //   print(circumference);
 
   String name = formalName('Rhys', 'Parsons');
-  print(name[0] + ' ' + name[6]);
+  print(name);
 }
 
 formalName(String firstName, String lastName) {
-  return '$firstName.splitted(' ') $lastName';
+  return '${firstName[0]}. $lastName';
 }

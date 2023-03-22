@@ -16,7 +16,6 @@ personalGreeting(String name) {
   return 'Hey $name!';
 }
 
-//Question 2
 void main() {
   // String myMessage = personalGreeting('Rhys');
   // print(myMessage);

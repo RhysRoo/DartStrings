@@ -30,6 +30,13 @@ String gradeTest(int score) {
   return grade;
 }
 
+// nameToNumber(String name) {
+
+//go over later  List<String> letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+//  int index = numbers.index(3);
+
+// }
+
 void main() {
   // String myMessage = personalGreeting('Rhys');
   // print(myMessage);
@@ -42,8 +49,11 @@ void main() {
   // String name = formalName('Rhys', 'Parsons');
   // print(name);
 
-  String grade = gradeTest(7);
-  print(grade);
+  // String grade = gradeTest(7);
+  // print(grade);
+
+  //go over later int nameLength = nameToNumber("Rhys");
+  // print(nameLength);
 }
 
 formalName(String firstName, String lastName) {
